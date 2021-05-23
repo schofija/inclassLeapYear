@@ -28,6 +28,6 @@ class test_LeapYear(unittest.TestCase):
     def test_leapYear6_ut(self):
         self.assertTrue(leapYear.isLeapYear("2000"), 2)
         
-    def test_leapYear7_ut(unittest.TestCase):
+    def test_leapYear7_ut(self):
         self.assertTrue(leapYear.isLeapYear(1800), 0)
 
